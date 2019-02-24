@@ -12,7 +12,7 @@ else()
     set(GLAD_MODE release)
 endif()
 
-add_library(glad STATIC ${GLAD_MODE}/src/gl.c)
+add_library(glad STATIC ${GLAD_MODE}/src/glad.c)
 
 set(GLAD_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/${GLAD_MODE}/include)
 
